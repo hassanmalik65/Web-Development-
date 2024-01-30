@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    width: 50%;
+    height: 50%;
+    background-color: #10cb48;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    right: 40%;
+  }
+  .square2 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(223, 255, 14);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  p{  font-family: "Sixtyfour", sans-serif;
+visibility:visible;
+
+  }
+  .myicon{
+    width: 400px;
+    color: violet;
+  }
+  p{
+    /* font-size: 200px; */
+    width: 100px;
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .circle1{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .circle2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(21, 239, 115);
+    
+    border-radius: 50%;
+  }
+  .circle3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 10, 10);
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+    display: inline;
+  }
