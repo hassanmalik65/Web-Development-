@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+  }
+  
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: steelblue;
+    color: #fff; 
+  }
+  
+  main {
+    display: flex;
+    flex-grow: 1; 
+  }
+  
+  aside {
+    width: 25%;
+    padding: 1rem;
+    background-color: wheat;
+  }
+  
+  article {
+    width: 75%;
+    padding: 1rem;
+    background-color: lightgreen; 
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+  
