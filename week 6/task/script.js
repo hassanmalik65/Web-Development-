@@ -13,6 +13,16 @@ function addTask() {
     }
 }
 
+function removeTask(){
+    const removeTask=document.getElementById("taskInput");
+    const task= taskInput.value.trim();
+
+    if(task !== ""){
+        tasks.pull(task);
+        displayTasks();
+    }
+}
+
 function displayTasks() {
     const taskList = document.getElementById("taskList");
     taskList.innerHTML = "";

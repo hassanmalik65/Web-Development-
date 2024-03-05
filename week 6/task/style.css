@@ -9,27 +9,31 @@ h1 {
 }
 
 input[type="text"] {
-    width: 70%;
+    width: 50%;
     padding: 10px;
-    margin: 10px auto;
+    margin: auto;
     display: block;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #464f56;
     color: white;
-    border: none;
+    border: 2px;
     cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #45a049;
+    color: #16b01e;
+
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
 
 li {
