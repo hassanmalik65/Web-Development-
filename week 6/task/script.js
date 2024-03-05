@@ -1,5 +1,3 @@
-// script.js
-
 let tasks = [];
 
 function addTask() {
