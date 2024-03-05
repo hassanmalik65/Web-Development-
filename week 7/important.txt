@@ -1,0 +1,14 @@
+(1)
+text --> id
+button --> id add
+area 
+(2)
+script
+a --> actionlistner using id
+	onclick
+	add eventlistner("click"= "your work")
+(3)
+extract text from text field with id
+create element(div)
+assign the textfield to the element
+get container by value id, and append as child(div)
